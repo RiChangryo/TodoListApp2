@@ -84,6 +84,9 @@
                                 <rect key="frame" x="128" y="281" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="追加する"/>
+                                <connections>
+                                    <action selector="TodoAddButton:" destination="Lul-bT-9RU" eventType="touchUpInside" id="1H1-hw-6og"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m1O-tb-4fF">
                                 <rect key="frame" x="35" y="237" width="249" height="30"/>
@@ -96,6 +99,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FBZ-Vs-MF0"/>
                     </view>
+                    <connections>
+                        <outlet property="TodoTextField" destination="m1O-tb-4fF" id="FTI-43-M7A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsz-Fd-fOr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
